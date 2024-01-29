@@ -11,19 +11,13 @@ body {
     width: auto;
     margin: 40px auto;
     padding: 30px;
-    background-color: #3c404d; 
+    background-color: #171a25; 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
     border-radius: 15px; 
 }
 
 h1 {
     color: white; 
-}
-
-.instructions {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: #adbac7;
 }
 
 #game-board {
@@ -46,23 +40,24 @@ h1 {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
 }
 
 .card img {
     width: 100%;
     height: auto;
-    visibility: hidden; /* Hide images by default */
+    visibility: hidden;
     display: block;
 }
 
 .card.show img {
-    visibility: visible; /* Show image when card is flipped */
+    visibility: visible;
 }
 
-#start-game {
-    background-color: #4caf50;
+#start-btn {
+    background-color: #12379e;
     color: white;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -70,7 +65,7 @@ h1 {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-#start-game:hover {
-    background-color: #43a047; /* Darker on hover */
-    transform: scale(1.05); /* Slightly enlarges on hover */
+#start-btn:hover {
+    background-color: #12379e;
+    transform: scale(1.05);
 }

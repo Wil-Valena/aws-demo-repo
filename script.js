@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('#game-board');
-    const startButton = document.getElementById('start-game');
+    const startButton = document.getElementById('start-btn');
     let cardsChosen = [];
     let cardsChosenId = [];
     let cardsWon = [];
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cardsChosenId.push(cardId);
             this.setAttribute('src', cardArray[cardId].img);
             if (cardsChosen.length === 2) {
-                setTimeout(checkForMatch, 500);
+               setTimeout(checkForMatch, 500);
             }
         }
     }
