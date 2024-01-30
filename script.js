@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'card07', img: 'images/sk.png' },
         { name: 'card07', img: 'images/sk.png' },
         { name: 'card08', img: 'images/hk.png' },
-        { name: 'card08', img: 'images/hk.png' },        
-        { name: 'card09', img: 'images/cq.png' },
-        { name: 'card09', img: 'images/cq.png' },
-        { name: 'card10', img: 'images/dq.png' },
-        { name: 'card10', img: 'images/dq.png' }
+        { name: 'card08', img: 'images/hk.png' }        
+        // { name: 'card09', img: 'images/cq.png' },
+        // { name: 'card09', img: 'images/cq.png' },
+        // { name: 'card10', img: 'images/dq.png' },
+        // { name: 'card10', img: 'images/dq.png' }
         // { name: 'card11', img: 'images/sq.png' },
         // { name: 'card11', img: 'images/sq.png' },
         // { name: 'card12', img: 'images/hq.png' },
